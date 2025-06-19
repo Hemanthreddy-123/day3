@@ -27,6 +27,16 @@ const HeroSection = () => {
     return () => clearInterval(typingInterval);
   }, [currentWordIndex]);
 
+  const handleStartFreeTrial = () => {
+    console.log('Start Free Trial clicked');
+    alert('Starting your free trial! Redirecting to registration...');
+  };
+
+  const handleWatchDemo = () => {
+    console.log('Watch Demo clicked');
+    alert('Opening demo video...');
+  };
+
   const stats = [
     { icon: <Users className="w-5 h-5" />, value: '50,000+', label: 'Active Users' },
     { icon: <Award className="w-5 h-5" />, value: '99.9%', label: 'Uptime' },
@@ -74,6 +84,7 @@ const HeroSection = () => {
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white px-8 py-4 text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300"
+              onClick={handleStartFreeTrial}
             >
               Start Free Trial
               <ArrowRight className="ml-2 w-5 h-5" />
@@ -82,6 +93,7 @@ const HeroSection = () => {
               variant="outline" 
               size="lg" 
               className="border-2 border-purple-200 text-purple-700 hover:bg-purple-50 px-8 py-4 text-lg font-semibold group transition-all duration-300"
+              onClick={handleWatchDemo}
             >
               <Play className="mr-2 w-5 h-5 group-hover:scale-110 transition-transform" />
               Watch Demo

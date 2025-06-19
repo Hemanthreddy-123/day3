@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Star, Quote, ChevronLeft, ChevronRight, MapPin, Briefcase } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
@@ -15,7 +14,7 @@ const TestimonialsSection = () => {
       company: "Tech Mahindra",
       location: "Bangalore, India",
       rating: 5,
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&h=150&fit=crop&crop=face",
       testimonial: "Stellar has revolutionized how our team manages projects. The Hindi language support and local payment options made adoption seamless across our Indian offices.",
       metrics: "40% faster delivery",
       verified: true
@@ -26,7 +25,7 @@ const TestimonialsSection = () => {
       company: "StartupIndia Ventures",
       location: "Mumbai, India", 
       rating: 5,
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+      image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=150&h=150&fit=crop&crop=face",
       testimonial: "The AI-powered insights helped us identify bottlenecks we never knew existed. Our productivity increased by 45% in just 3 months. Worth every rupee!",
       metrics: "45% productivity boost",
       verified: true
@@ -37,7 +36,7 @@ const TestimonialsSection = () => {
       company: "Wipro",
       location: "Hyderabad, India",
       rating: 5,
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face",
       testimonial: "The enterprise security features give us peace of mind. SOC 2 compliance was crucial for our client requirements. Stellar delivered beyond expectations.",
       metrics: "100% compliance achieved",
       verified: true
@@ -59,7 +58,7 @@ const TestimonialsSection = () => {
       company: "Zomato",
       location: "Delhi, India",
       rating: 5,
-      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
+      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
       testimonial: "The custom workflows and integrations helped us streamline our product development process. The ROI was visible within the first month itself.",
       metrics: "3x faster releases",
       verified: true
